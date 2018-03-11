@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            canvas{background: #b8edc9;}
+        </style>
+    </head>
+    <body>
+        <h5>Canvas</h5>
+        <canvas id="mycanvas" width="1000" height="1000">
+            您的浏览器不支持html5dcanvas元素
+        </canvas>
+    <script type="text/javascript">
+        var canvas=document.getElementById('mycanvas');//定义变量获取画布dom
+        var c=mycanvas.getContext('2d');//设置绘图环境2d
+        c.lineWidth=4;//设置线宽
+        c.strokeStyle="#A52A2A";//设置边颜色
+
+
+            //绘制矩形
+          c.moveTo(50,50);
+          c.lineTo(100,50);//lineTo设置中间值
+          c.lineTo(100,150);
+          c.lineTo(50,150);
+//        c.lineTo(50,50);
+          c.closePath();//从当前点回到起始点的来封闭路径
+          c.stroke()
+
+        c.beginPath();//创建新的路径
+        c.strokeStyle="black"
+        c.rect(110,50,50,100)//创建矩形rect（x,y,w,h）
+        c.stroke();
+         
+        c.beginPath();
+        c.strokeStyle="#A52A2A"
+        c.strokeRect(180,50,50,100)//创建矩形
+        
+         //绘制矩形实心
+         c.beginPath();
+         c.fillStyle="#A52A2A"//设置填充颜色
+
+         c.rect(240,60,100,50)
+         c.fill() //绘制实心（带填充）
+
+        
+        c.beginPath();
+        c.fillStyle="#A52A2A"
+        c.fillRect(240,130,100,50)
+        
+   
+        </script>
+        
+    </body>
+    
+</html>
