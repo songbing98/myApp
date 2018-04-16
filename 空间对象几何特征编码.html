@@ -1,6 +1,6 @@
 <html>    
     <head>    
-        <title>Ãû³Æ±àÂë</title>    
+        <title>åç§°ç¼–ç </title>    
     </head>    
         <body>               
             <input id="fileInput" type="file" onchange="processFiles()"/>  
@@ -14,23 +14,23 @@
                     reader.readAsText(file);  
                     reader.onload=function(e)  
                     {  
-                        var str = this.result;//¶ÁÈ¡ÎÄ±¾  
+                        var str = this.result;//è¯»å–æ–‡æœ¬  
                         var number = new Array();  
-                        number= digitalExtraction(str,number);//ÌáÈ¡Êı×Ö²¢´æÈëÊı×é  
-                        draw(number);//»­Í¼  
+                        number= digitalExtraction(str,number);//æå–æ•°å­—å¹¶å­˜å…¥æ•°ç»„  
+                        draw(number);//ç”»å›¾  
                     }  
                       
                 }  
-                //ÌáÈ¡Êı×Ö£¬²¢´æÈëÊı×é  
+                //æå–æ•°å­—ï¼Œå¹¶å­˜å…¥æ•°ç»„  
                function digitalExtraction(str,number){  
                     var heap= str.replace(/[^0-9.L]/ig,"A");  
   
-                    var numcharacter="";//´æ´¢Êı×Ö×Ö·û  
-                    var number =new Array();//ÌáÈ¡Êı×ÖÊı×é  
+                    var numcharacter="";//å­˜å‚¨æ•°å­—å­—ç¬¦  
+                    var number =new Array();//æå–æ•°å­—æ•°ç»„  
                     var i=0;  
-                    var flag=0;//heap×Ö·û´®µ±Ç°±ê¼Ç  
-                    var n=0;//±êÊ¶Êı×ÖÓë×Ö·û×ª»»Î»ÖÃ  
-                    var character=heap[flag];//»ñÈ¡×Ö·û´®µÄÒ»¸ö×Ö·û  
+                    var flag=0;//heapå­—ç¬¦ä¸²å½“å‰æ ‡è®°  
+                    var n=0;//æ ‡è¯†æ•°å­—ä¸å­—ç¬¦è½¬æ¢ä½ç½®  
+                    var character=heap[flag];//è·å–å­—ç¬¦ä¸²çš„ä¸€ä¸ªå­—ç¬¦  
                    // document.write(heap);  
                     while(character!=null){  
                         if(character=="L"){  
