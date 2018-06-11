@@ -1,7 +1,7 @@
 # myApp
 
 最佳工作序列
-https://songbing98.github.io/myApp/%E6%9C%80%E4%BD%B3%E5%B7%A5%E4%BD%9C%E5%BA%8F%E5%88%97.html
+https://songbing98.github.io/myApp/bestjob.html
 
 跳马
 https://songbing98.github.io/myApp/%E8%B7%B3%E9%A9%AC.html
