@@ -20,3 +20,15 @@ https://songbing98.github.io/myApp/%E7%A9%BA%E9%97%B4%E5%B9%B3%E9%9D%A2%E5%9D%90
 
 地图投影
 https://songbing98.github.io/myApp/%E5%9C%B0%E5%9B%BE%E6%8A%95%E5%BD%B1.html
+
+计算江苏省面积
+https://songbing98.github.io/myApp/%E6%B1%82%E9%9D%A2%E7%A7%AF.html
+
+道格拉斯普客压缩
+https://songbing98.github.io/myApp/dougolas-pauker.html
+
+四叉树
+https://songbing98.github.io/myApp/quadtree.html
+
+左转算法构建多边形
+https://songbing98.github.io/myApp/left.html
