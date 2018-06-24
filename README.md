@@ -35,3 +35,6 @@ https://songbing98.github.io/myApp/left.html
 
 地图符号绘制
 https://songbing98.github.io/myApp/symbol.html
+
+矢量转栅格：
+https://songbing98.github.io/myApp/raster.html
